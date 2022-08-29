@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300&display=swap');
+
+:root{
+    --primary-color:  rgb(48, 197, 227);
+    --primary-color-dark:  rgb(29, 142, 164);
+    --second-color: white;
+}
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);   
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1,5em;
+}
+
+.container
+{
+    max-width: 640px;
+    margin: 20px auto;
+    background: var(--second-color);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form input, form label, form button
+{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+form input
+{
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+form input:focus
+{
+    outline: 1px solid var(--primary-color);
+}
+form button
+{
+    border: none;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    font-size: 18px;
+    font-weight: 700;
+    height: 40px;
+    cursor: pointer;
+}
+form button:hover
+{
+    background-color: var(--primary-color-dark);
+}
+.paragrafo-resultado
+{
+    background-color: rgb(39, 226, 39);
+    padding: 10px 20px;
+}
+ .popupStyle{
+    display: flex;
+    justify-content: center;
+    max-width: 640px;
+    margin: 20px auto;
+    background: var(--second-color);
+    padding: 20px;
+    border-radius: 20px;
+    transition: .2s ease;
+    
+ }
